@@ -16,9 +16,40 @@
 
 **Опр. 3** - две матрицы зовутся равными,если их размеры и элементы соответственно равны.
 
-<img src="https://github.com/wiered/cons/blob/main/algem/imgs/zero_matr.png?raw=true" width="220" height="110">
-
-<img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/definition-and-formula-of-a-diagonal-matrix-1628749102.png" width="695" height="559">
+## Нулевая, Единичная и Диагональная матрицы
 
 <img src="https://github.com/wiered/cons/blob/main/algem/imgs/zero_matr.png?raw=true" width="220" height="110">
+<img src="https://github.com/wiered/cons/blob/main/algem/imgs/Identity_matr.png?raw=true" width="220" height="110">
+<img src="https://github.com/wiered/cons/blob/main/algem/imgs/diag_matr.png?raw=true" width="220" height="190">
 
+## Действия над матрицами
+- Сложение. Возможно только между матрицами равных размеров. Складываются соответствующие элементы.
+- Вычитание. Возможно только между матрицами равных размеров. Вычитаются соответствующие элементы.
+- Умножение матрицы на число. Каждый элемент матрицы умножается на число.
+- Транспонирование матрицы. Строки становятся столбцами, столбцы - строками.
+- Умножение матриц. Второй индекс первой матрицы должен быть равен первому индексу второй(сцепленные матрицы).
+
+
+```
+∃ Aₘₓₙ, Bₙₓₖ, Cₘₓₖ: cᵢⱼ = ₛ₌₁∑ⁿaᵢₛ*bₛⱼ ∀ i ∈ (1, m), j ∈ (1, n)
+```
+
+- Возведение квадратных матриц в степень.
+
+```
+(Aₙₓₙ)ᵏ = A * A * A * ... * A
+```
+
+## Свойства операций над матрицами
+- A + B = B + A
+- (A + B) + C = A + (B + C)
+- A*B != B*A
+- A + 0 = A
+- -A = (-aᵢⱼ)
+- A - A = 0
+- (A+B)C = AC + BC
+- A(B+C) = AB + AC
+- (Aᵗ)ᵗ = A
+- (A + B)ᵗ = Aᵗ + Bᵗ
+- (ƛA)ᵗ = ƛAᵗ
+- (A * B)ᵗ = BᵗAᵗ
