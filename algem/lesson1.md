@@ -16,4 +16,7 @@
 
 **Опр. 3** - две матрицы зовутся равными,если их размеры и элементы соответственно равны.
 
-<img src="" width="680" height="440">
+<img src="https://github.com/wiered/cons/blob/main/algem/imgs/zero_matr.png?raw=true" width="220" height="110">
+
+<img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/definition-and-formula-of-a-diagonal-matrix-1628749102.png" width="695" height="559">
+
